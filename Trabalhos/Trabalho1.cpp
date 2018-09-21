@@ -12,7 +12,6 @@ class Matriz{
 		void ValLC();
 		void MatrizAssigner();
 		void MosVal();
-		void Desaloca();
 };
 void Matriz::ValLC(){
 	cout<<"Digite o número de linhas da matriz:"<<endl;
@@ -47,13 +46,6 @@ void Matriz::MatrizAssigner(){
 		for(j=0;j<C1;j++){
 		Matriz1[i][j]=(i+1)*10+j+1;
 		}
-	}
-}
-void Matriz::Desaloca(){
-	int i;
-	int L1=GetL();
-	for(i=0;i<L1;i++){
-		delete[] Matriz1[i];
 	}
 }
 
