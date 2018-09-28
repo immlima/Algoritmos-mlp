@@ -1,13 +1,13 @@
 # Resumos
 
-### Ponteiros
+## Ponteiros
 
-Ponteiro é uma variável que armagena o endereço de outra.
+Ponteiro ï¿½ uma variï¿½vel que armagena o endereï¿½o de outra.
 
-##### Aplicação
+#### Aplicaï¿½ï¿½o
 
  ```
-	int *p; (Declaração de um ponteiro.)
-	p= &a;  (Variável  **P** recebe o endereço de memoria de  **a**.)
-	*p=2;   (Variável com endereço alocado dentro de **p** vai receber o valor 2.)
+	int *p; (Declaraï¿½ï¿½o de um ponteiro.)
+	p= &a;  (Variï¿½vel  **P** recebe o endereï¿½o de memoria de  **a**.)
+	*p=2;   (Variï¿½vel com endereï¿½o alocado dentro de **p** vai receber o valor 2.)
  ```
